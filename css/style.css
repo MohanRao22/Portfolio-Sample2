@@ -1,0 +1,153 @@
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Top Bar */
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.menu-items{
+    list-style: none;
+}
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+.right-navigator{
+    padding-right:10px;
+}
+.left-navigator{
+    padding-left: 10px;
+}
+
+/* sm - list */
+.menu-item-sm a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-family: cursive;
+}
+
+.menu-item-sm{
+    list-style: none;
+  transition: 3s;
+  margin: 3em 0px;
+  text-align: center;
+ 
+}
+.menu-items-visible-sm{
+    position: absolute;
+    background: red;
+    height: 100vh;
+    width: 100vw;
+    transition: 3s;
+    z-index: 99999;
+}
+
+/* Main Banner */
+.top-banner-section{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.top-banner-section{
+    background-color: rgb(181, 181, 181);
+    padding: 20px;
+}
+.mailing{
+    color: white;
+    text-decoration: none;
+
+}
+.name{
+    font-size: 22px;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+/* skill set  */
+.skill{
+    background-color: rgb(218, 223, 223);
+    border-radius: 5px;
+   overflow: hidden;
+}
+.skills-header{
+    margin-bottom: 3em;
+}
+
+.skill img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 16px black;
+    padding: 10px;
+}
+.skills-container{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* Experience Set */
+
+.experience-set{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-item{
+    display: flex;
+}
+.exp-image img{
+    width: 100px;
+    height: 100px;
+}
+.exp-name{
+    font-weight: 900;
+}
+.exp-specs{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.exp-designation{
+    letter-spacing: 3px;
+    color: rgb(228, 107, 107);
+}
+#exp{
+    margin-top: 8em;
+}
+
+/* Contact us */
+.social-list svg{
+    height: 50px;
+    weight : 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+.social-media{
+    display: flex;
+    gap: 15px;
+}
