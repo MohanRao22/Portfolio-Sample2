@@ -12,8 +12,11 @@
     position: sticky;
     top: 0;
     z-index: 9999;
+    align-items: center;
 }
-
+.logo{
+    height: 38px;
+}
 .menu-items{
     list-style: none;
 }
@@ -32,6 +35,7 @@
 }
 .left-navigator{
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 /* sm - list */
